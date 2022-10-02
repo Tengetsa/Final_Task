@@ -2,12 +2,12 @@
 
 void Task()
 {
-Console.Write("Введите через пробел: ");
-string[] array = Console.ReadLine()!.Split(new char[] { ' ' });
+    Console.Write("Введите через пробел: ");
+    string[] array = Console.ReadLine()!.Split(new char[] { ' ' });
 
-PrintArray(array);
-Console.Write(" -> ");
-PrintReferenceArray(array);
+    PrintArray(array);
+    Console.Write(" -> ");
+    PrintReferenceArray(array);
 }
 
 void PrintArray(string[] array)

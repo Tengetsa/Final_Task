@@ -2,11 +2,11 @@
 
 void Task()
 {
-string[] array = new string[6] {"Hello", "12", "gir", "World", "123", "ver"};
+    string[] array = new string[6] { "Hello", "12", "gir", "World", "123", "ver" };
 
-PrintArray(array);
-Console.Write(" -> ");
-PrintReferenceArray(array);
+    PrintArray(array);
+    Console.Write(" -> ");
+    PrintReferenceArray(array);
 }
 
 void PrintArray(string[] array)
