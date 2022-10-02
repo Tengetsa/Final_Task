@@ -21,6 +21,7 @@ void FillArray(string[] array, string[] array2)
         }
     }
 }
+
 void PrintArray(string[] array)
 {
     Console.Write("[ ");
