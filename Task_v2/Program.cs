@@ -2,7 +2,6 @@
 
 void Task()
 {
-Console.Write("Введите через пробел: ");
 string[] array = new string[6] {"Hello", "12", "gir", "World", "123", "ver"};
 
 PrintArray(array);
